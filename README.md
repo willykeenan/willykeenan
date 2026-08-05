@@ -1,6 +1,6 @@
 # William Keenan
 
-I build evidence-first machine-learning and AI systems: causal evaluation,
+I build evidence-first machine-learning and AI systems: chronological evaluation,
 calibrated uncertainty, auditable agent coordination, and decision support that
 keeps people in control.
 
@@ -23,7 +23,7 @@ The public TypeScript reference implementation includes:
   failure modes;
 - a local CLI, read-only viewer, CI, adversarial tests, and an offline research
   verifier;
-- a paper-ready manuscript, claim ledger, machine-readable aggregate result,
+- a bounded manuscript, claim ledger, machine-readable aggregate result,
   checksums, and explicit non-claims.
 
 A bounded local study reused one Qwen3-14B native prefix state across six
@@ -95,5 +95,3 @@ priority as my ML work: make complex systems legible and preserve human review.
 - Calibrate uncertainty and route low-confidence cases to human review.
 - Keep model output separate from operational authority.
 - Publish negative results when the evidence does not clear the frozen gate.
-
-[LinkedIn](https://www.linkedin.com/in/william-keenan-a67833253)
