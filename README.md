@@ -17,14 +17,24 @@ to act.
 The public TypeScript reference implementation includes:
 
 - canonical encoding and content-addressed identity;
-- runtime schema, enum, size, depth, and path-traversal defenses;
-- exact fixture reconstruction and deterministic replay;
-- manifest-mismatch, unknown-codec, payload-budget, and decoder-disagreement
-  failure modes;
-- a local CLI, read-only viewer, CI, adversarial tests, and an offline research
-  verifier;
-- a bounded manuscript, claim ledger, machine-readable aggregate result,
-  checksums, and explicit non-claims.
+- closed-world packet and envelope schemas, causal-parent integrity, global
+  idempotency collision detection, and guarded atomic ledger batches;
+- typed HTTP failure behavior, read-only defaults, deterministic replay, and
+  explicit `not-evaluated` policy semantics;
+- a public BANKING77 intent-classification benchmark with matched models, five
+  fixed seeds, paired uncertainty, calibration, risk–coverage, leakage and
+  typo-stress controls, and all 77 per-intent results;
+- Node 22/24 CI, coverage gates, CodeQL, dependency auditing, clean-package
+  smoke tests, and a separate full benchmark-reproduction workflow.
+
+In the exploratory BANKING77 evaluation, word-plus-character features improved
+macro-F1 from `0.8915` to `0.9119` over the matched word-only model. The paired
+difference was `+0.0203` with a 2,000-draw 95% bootstrap interval of
+`[+0.0140, +0.0274]`. All 3,050 train-disjoint predictions preserved their
+route through direct, JSON, and Waggle/Kea handoffs; the finite fault suite had
+zero detectable-fault accepts and Kea granted zero authority. The repository
+contains the pinned source contract, code, text-free predictions, complete
+metrics, checksums, and one-command reproduction.
 
 A bounded local study reused one Qwen3-14B native prefix state across six
 source-separated branches on Apple Metal. It preserved exact outputs and beat
