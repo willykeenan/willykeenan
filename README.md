@@ -62,7 +62,9 @@ I call the experimental model family a **Liquidity Cognition Model (LCM)**.
 HEATWAKE is the complete research system—recorder, representation, model,
 evaluation, observability, and refusal policy—while the LCM is the predictive
 model inside it. Here `LCM` means *Liquidity Cognition Model*, not the unrelated
-“Large Concept Model” term used elsewhere in machine learning.
+“Large Concept Model” term used elsewhere in machine learning. The comparison
+is about sequence modeling—not an assertion that the systems share scale,
+architecture, or validated capability.
 
 | Design analogy | Language model | HEATWAKE LCM |
 | --- | --- | --- |
