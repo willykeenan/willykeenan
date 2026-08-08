@@ -138,18 +138,20 @@ readiness, production deployment, or live operational use.
 
 ### [KE Pen](https://github.com/willykeenan/pen) — open source
 
-A native macOS visual-intent layer for MCP-capable AI hosts. A person draws
-over any application, Pen creates a bounded local crop around the mark, and a
-three-tool stdio MCP contract separates status, reading, and completion. Reading
-the context never clears the mark; the host must explicitly acknowledge
+A cross-platform visual-intent layer for MCP-capable AI hosts. A person draws
+over any desktop application, Pen creates a bounded local crop around the mark,
+and a three-tool stdio MCP contract separates status, reading, and completion.
+Reading the context never clears the mark; the host must explicitly acknowledge
 completion. Visual context informs the AI without granting authority to act.
 
-The Swift and TypeScript implementation is MIT licensed, has deterministic
-Node and Swift lifecycle tests, and ships as a [completely free Apple Silicon
-release](https://kestudios.dev/pen?ref=github-profile-pen), with no paid tier or
-feature gate. The current build is ad-hoc signed and not Apple-notarized; it
-requires macOS 13+, Screen Recording permission, Node.js 20+, and manual MCP
-host configuration.
+The Electron, TypeScript, and legacy Swift implementation is MIT licensed and
+covered by nine deterministic Node contract tests plus five native Swift tests.
+Version 0.3.0 ships as a [completely free release for macOS, Windows, and
+Linux](https://kestudios.dev/pen?ref=github-profile-pen), with no limited edition,
+paid tier, or feature gate. Each platform artifact is built and boot-checked on
+its native GitHub Actions runner. The current builds are unsigned; Linux overlay
+support requires X11 or XWayland, and the MCP server requires Node.js 20+ plus
+manual host configuration.
 
 ### [Pointer](https://github.com/willykeenan/pointer-app)
 
