@@ -134,7 +134,21 @@ failed families after seeing their results, and kept later evaluation gates
 sealed. That is the current result—not market edge, profitability, trading
 readiness, production deployment, or live operational use.
 
-## Applied system
+## Applied systems
+
+### [KE Pen](https://github.com/willykeenan/pen) — open source
+
+A native macOS visual-intent layer for MCP-capable AI hosts. A person draws
+over any application, Pen creates a bounded local crop around the mark, and a
+three-tool stdio MCP contract separates status, reading, and completion. Reading
+the context never clears the mark; the host must explicitly acknowledge
+completion. Visual context informs the AI without granting authority to act.
+
+The Swift and TypeScript implementation is MIT licensed, has deterministic
+Node and Swift lifecycle tests, and ships as a [free Apple Silicon
+Preview](https://kestudios.dev/pen). The current build is deliberately labeled
+as ad-hoc signed and not Apple-notarized; it requires macOS 13+, Screen
+Recording permission, Node.js 20+, and manual MCP host configuration.
 
 ### [Pointer](https://github.com/willykeenan/pointer-app)
 
