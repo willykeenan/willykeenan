@@ -145,10 +145,11 @@ the context never clears the mark; the host must explicitly acknowledge
 completion. Visual context informs the AI without granting authority to act.
 
 The Swift and TypeScript implementation is MIT licensed, has deterministic
-Node and Swift lifecycle tests, and ships as a [free Apple Silicon
-Preview](https://kestudios.dev/pen). The current build is deliberately labeled
-as ad-hoc signed and not Apple-notarized; it requires macOS 13+, Screen
-Recording permission, Node.js 20+, and manual MCP host configuration.
+Node and Swift lifecycle tests, and ships as a [completely free Apple Silicon
+release](https://kestudios.dev/pen?ref=github-profile-pen), with no paid tier or
+feature gate. The current build is ad-hoc signed and not Apple-notarized; it
+requires macOS 13+, Screen Recording permission, Node.js 20+, and manual MCP
+host configuration.
 
 ### [Pointer](https://github.com/willykeenan/pointer-app)
 
