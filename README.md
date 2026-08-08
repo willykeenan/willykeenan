@@ -50,44 +50,87 @@ risk–coverage analysis, error analysis, and human-review routing. The locked
 experiment favored the simpler baseline—disciplined model selection over model
 hype.
 
-### HEATWAKE — private ML research
+### HEATWAKE — private ML research: a Liquidity Cognition Model
 
-HEATWAKE explores whether temporally causal representations of market
-microstructure can support calibrated probabilistic forecasting. Its source,
-datasets, and operational details remain private; this overview describes the
-research method and verified outcome only.
+Everyone has heard of a **large language model (LLM)**: a system designed to
+learn structure from sequences of language. HEATWAKE asks an analogous but
+domain-specific question: can a machine learn the evolving structure of market
+liquidity from native order-book events and causal, multiscale “movies” of the
+book?
 
-The evaluation system is designed around:
+I call the experimental model family a **Liquidity Cognition Model (LCM)**.
+HEATWAKE is the complete research system—recorder, representation, model,
+evaluation, observability, and refusal policy—while the LCM is the predictive
+model inside it. Here `LCM` means *Liquidity Cognition Model*, not the unrelated
+“Large Concept Model” term used elsewhere in machine learning.
 
-- **preregistration:** hypotheses, baselines, primary metrics, thresholds,
-  compute limits, stopping rules, and failure outcomes are frozen in advance;
-- **chronological testing:** train, development, calibration, and sealed-test
-  partitions are ordered in time, with purge and embargo boundaries;
-- **causal feature controls:** every model input must be available at prediction
-  time; future events, labels, identifiers, and post-cutoff data are excluded;
-- **leakage tripwires:** cross-partition duplication, future-prefix invariance,
-  identifier injection, target overlap, lineage mismatch, time reversal, lag
-  tests, and impossible performance all fail closed;
-- **matched controls:** candidates are compared with frozen, equally informed
-  baselines, shuffled-label controls, and modality ablations;
-- **uncertainty before promotion:** probabilistic loss and calibration matter
-  more than a favorable point estimate; paired time-grouped uncertainty must
-  clear the frozen criterion;
-- **reproducible provenance:** datasets, transformations, contracts,
-  checkpoints, and outcomes are bound through deterministic manifests and
-  retained failure artifacts;
-- **abstention:** ambiguous evidence, failed controls, or missing provenance
-  selects no model and emits no forecast.
+| Design analogy | Language model | HEATWAKE LCM |
+| --- | --- | --- |
+| Causal input | Ordered text tokens | Timestamped adds, changes, cancels, trades, and deterministic liquidity fields |
+| Learned state | Latent linguistic context | Latent state over evolving liquidity structures and conditional futures |
+| Predictive object | Distribution over subsequent tokens | Distribution over future fields, structure lifecycles, price paths, barriers, excursions, and settlement outcomes |
+| Human-readable layer | Generated language | Calibrated measurements plus a separately tested decoder for concepts, analogues, uncertainty, and invalidation |
+| Operational boundary | Application-dependent | Read-only decision support; model output never grants authority to trade |
 
-In one bounded retrospective development study, the candidate produced a
-favorable point estimate against its frozen baseline but failed the
-preregistered uncertainty criterion. I selected no model, kept the final test
-sealed, emitted no signal, and retained the outcome as insufficient evidence.
-That result demonstrates that the framework can reject an attractive model
-instead of weakening the threshold after the fact.
+#### The core idea
 
-HEATWAKE does **not** claim market edge, profitability, trading readiness,
-production deployment, or live operational use.
+A normal liquidity heatmap shows **where displayed size appeared**. It does not
+tell us what that structure is doing. The same bright wall may hold, withdraw
+before contact, absorb aggressive flow while replenishing, break, or reform.
+HEATWAKE treats those as competing conditional futures rather than assigning
+one visual pattern a fixed meaning.
+
+The system therefore preserves two synchronized causal views:
+
+- the **native event tape**—adds, modifications, cancellations, executions,
+  timing, feed health, and reconstruction state;
+- a **deterministic semantic field**—time × relative price × side × channel at
+  multiple horizons, derived from exactly the events available at the decision
+  cutoff rather than from screenshots.
+
+Every field value remains traceable to its source event and render contract.
+An event encoder and a field-movie encoder meet at the same cutoff and produce
+a latent distribution over several plausible future liquidity trajectories.
+The model is not asked to generate one attractive future image and call it a
+forecast.
+
+```mermaid
+flowchart LR
+    A[Received event tape] --> B[Deterministic book reconstruction]
+    B --> C[Multiscale liquidity fields]
+    A --> D[Raw-event encoder]
+    C --> E[Field-movie encoder]
+    D --> F[Latent liquidity state]
+    E --> F
+    F --> G[Conditional future trajectories]
+    F --> H[Rosetta: concepts, analogues, invalidation]
+    G --> I[Calibrated measurement heads]
+    I --> J[Separate policy: WAIT or ABSTAIN unless every gate passes]
+```
+
+The phrase **Liquidity Wavefunction** is a classical probability metaphor for
+that unresolved distribution of possible future states—not a quantum-computing
+or market-physics claim. A separately tested “Rosetta” layer translates the
+latent state into inspectable concepts, similar historical scenes, sensitivity,
+and reasons a forecast would be invalidated. It is an observability surface,
+not the source of the prediction. Forecasting, explanation, and permission to
+act remain three different layers.
+
+#### How I test it
+
+Hypotheses, baselines, metrics, compute limits, stopping rules, and failure
+outcomes are frozen before evaluation. Partitions move forward in time with
+purge and embargo boundaries; future-prefix, shuffled-label, time-reversal,
+target-lag, modality-ablation, lineage, and impossible-performance controls
+fail closed. Probabilistic loss, calibration, grouped uncertainty, feed health,
+out-of-distribution state, and realistic costs must all clear their own gates.
+Otherwise the system selects no model and abstains.
+
+The bounded causal visual, event, and fused families tested so far did **not**
+clear their frozen selection gates. I selected no model, did not retune the
+failed families after seeing their results, and kept later evaluation gates
+sealed. That is the current result—not market edge, profitability, trading
+readiness, production deployment, or live operational use.
 
 ## Applied system
 
