@@ -153,10 +153,36 @@ supplier email, delivery ETAs, and signed Stripe, Shopify, and Square sales
 sources. REST API, MCP server, and dashboard; zero runtime dependencies; tested
 across time zones.
 
+### [Switchboard](https://github.com/willykeenan/switchboard)
+
+A local switchboard for AI coding agents: rooms, a directed-permission map of which
+agents may message which, placements, exact-recipient handoffs, and a task board.
+The operator decides who may talk to whom; agents never launch or wake each other
+without that permission. AgentBrain Handoffs is its delivery layer, released on
+its own.
+
 ### [KE Pen](https://github.com/willykeenan/pen)
 
 A free visual pointing layer for MCP-capable AI assistants on macOS, Windows, and
 Linux: draw on the screen, and the assistant receives exactly what you pointed at.
+
+### Smaller tools
+
+- [codex-lens](https://github.com/willykeenan/codex-lens): read-only viewer for local
+  OpenAI Codex threads, plus a Claude skill (independent; not affiliated with OpenAI).
+- [DayLedger](https://github.com/willykeenan/dayledger): turns Claude Code session logs
+  into a daily work report that tracks tasks across days.
+- [CPU and GPU Workers](https://github.com/willykeenan/cpu-gpu-workers): read-only views
+  of local CPU jobs and the Apple GPU that open inside Claude Code and Codex.
+
+## Other open projects
+
+- [Strand DNA](https://github.com/willykeenan/strand-dna): a DNA report that runs
+  entirely in the browser; the raw 23andMe or AncestryDNA file never leaves the device.
+  Openly licensed sources only, with plain-language limits on what the results mean.
+- [Live Wire](https://github.com/willykeenan/live-wire): a 24/7 satirical AI news
+  channel with cartoon anchors and mouth sync. It ships a keyless demo, invented names,
+  and a content policy that requires satire to be labelled.
 
 ## Applied system
 
