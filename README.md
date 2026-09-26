@@ -145,6 +145,15 @@ interrupts an agent that is mid-turn. Failed deliveries are resent within a fixe
 bound; unknown outcomes are reconciled by observation rather than retried. It ships
 with a CLI, a live status page, and an MCP server; Python standard library only.
 
+### [ContextLib](https://github.com/willykeenan/agentbrain-contextlib)
+
+A project's long-term memory as plain Markdown files: decisions, requirements, facts,
+lessons and returns that you can read in Finder, carry on an SSD, and diff in git.
+Records are append-only with a tamper-evident ledger, secrets and home paths are
+refused, and an always-loaded brief stays under 8 KB. It ships a CLI and an MCP
+server, and plugs into AgentBrain Handoffs; Python standard library only.
+[Live sample library](https://huggingface.co/spaces/willykeenan/contextlib).
+
 ### [Tanpin](https://github.com/willykeenan/tanpin)
 
 Item-by-item inventory that reorders itself, after the *tanpin kanri* method:
