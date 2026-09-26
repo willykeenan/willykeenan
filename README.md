@@ -134,6 +134,30 @@ failed families after seeing their results, and kept later evaluation gates
 sealed. That is the current result—not market edge, profitability, trading
 readiness, production deployment, or live operational use.
 
+## Open-source developer tools
+
+### [AgentBrain Handoffs](https://github.com/willykeenan/agentbrain-handoffs)
+
+Durable delivery of work between AI coding agents (Claude Code, Codex, or any
+command). Each handoff becomes exactly one new turn in the recipient's existing
+session: it is never delivered to a substitute agent, never sent twice, and never
+interrupts an agent that is mid-turn. Failed deliveries are resent within a fixed
+bound; unknown outcomes are reconciled by observation rather than retried. It ships
+with a CLI, a live status page, and an MCP server; Python standard library only.
+
+### [Tanpin](https://github.com/willykeenan/tanpin)
+
+Item-by-item inventory that reorders itself, after the *tanpin kanri* method:
+per-SKU demand forecasts with rolling-origin backtests, automatic purchase orders,
+supplier email, delivery ETAs, and signed Stripe, Shopify, and Square sales
+sources. REST API, MCP server, and dashboard; zero runtime dependencies; tested
+across time zones.
+
+### [KE Pen](https://github.com/willykeenan/pen)
+
+A free visual pointing layer for MCP-capable AI assistants on macOS, Windows, and
+Linux: draw on the screen, and the assistant receives exactly what you pointed at.
+
 ## Applied system
 
 ### [Pointer](https://github.com/willykeenan/pointer-app)
