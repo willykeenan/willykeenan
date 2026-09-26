@@ -136,6 +136,22 @@ readiness, production deployment, or live operational use.
 
 ## Open-source developer tools
 
+<table>
+<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/ke-activity-monitor"><img src="https://raw.githubusercontent.com/willykeenan/ke-activity-monitor/main/docs/images/agents.png" alt="KE Activity Monitor"></a><br><b>KE Activity Monitor</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/switchboard"><img src="https://raw.githubusercontent.com/willykeenan/switchboard/main/docs/images/workflow-map.png" alt="Switchboard"></a><br><b>Switchboard</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/agentbrain-handoffs"><img src="https://raw.githubusercontent.com/willykeenan/agentbrain-handoffs/main/docs/images/handoffs-demo.png" alt="AgentBrain Handoffs"></a><br><b>AgentBrain Handoffs</b></td></tr>
+<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/tanpin"><img src="https://raw.githubusercontent.com/willykeenan/tanpin/main/docs/images/dashboard.png" alt="Tanpin"></a><br><b>Tanpin</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/agentbrain-contextlib"><img src="https://raw.githubusercontent.com/willykeenan/agentbrain-contextlib/main/docs/images/sample-library.png" alt="ContextLib"></a><br><b>ContextLib</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/live-wire"><img src="https://raw.githubusercontent.com/willykeenan/live-wire/main/docs/images/demo.png" alt="Live Wire"></a><br><b>Live Wire</b></td></tr>
+<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/strand-dna"><img src="https://raw.githubusercontent.com/willykeenan/strand-dna/main/docs/images/report.png" alt="Strand DNA"></a><br><b>Strand DNA</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/dayledger"><img src="https://raw.githubusercontent.com/willykeenan/dayledger/main/docs/images/report.png" alt="DayLedger"></a><br><b>DayLedger</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/pen"><img src="https://raw.githubusercontent.com/willykeenan/pen/main/docs/images/pen-overlay.png" alt="KE Pen"></a><br><b>KE Pen</b></td></tr>
+</table>
+
+<sub>Real screenshots of each project's demo.</sub>
+
+### [KE Activity Monitor](https://github.com/willykeenan/ke-activity-monitor)
+
+A Mac activity monitor for people who run AI agents. It has the usual CPU, memory,
+energy, disk and network views, plus which processes are AI runtimes, GPU compute,
+worker pools with real progress, Codex and Claude Code projects, and local knowledge
+brains. Local only, with 615 tests.
+[Product page](https://huggingface.co/spaces/willykeenan/activity-monitor).
+
 ### [AgentBrain Handoffs](https://github.com/willykeenan/agentbrain-handoffs)
 
 Durable delivery of work between AI coding agents (Claude Code, Codex, or any
