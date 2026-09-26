@@ -1,12 +1,53 @@
 # William Keenan
 
-I build evidence-first machine-learning and AI systems: chronological evaluation,
-calibrated uncertainty, auditable agent coordination, and decision support that
-keeps people in control.
+I build tools for people who work alongside AI agents: ways to see what agents are doing, coordinate them, and keep a record they can't quietly rewrite. By day I work at the intersection of AI and banking.
 
-## Research and machine learning
+<sub>This is a personal page. The projects and views here are my own and don't represent my employer.</sub>
 
-### [Waggle + Kea](https://github.com/willykeenan/waggle-kea) — open source
+[KE Studios](https://kestudios.dev) · [Agent Rooms](https://agentrooms.io) · [Hugging Face](https://huggingface.co/willykeenan)
+
+<table>
+<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/ke-activity-monitor"><img src="https://raw.githubusercontent.com/willykeenan/ke-activity-monitor/main/docs/images/agents.png" alt="KE Activity Monitor"></a><br><b>KE Activity Monitor</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/switchboard"><img src="https://raw.githubusercontent.com/willykeenan/switchboard/main/docs/images/workflow-map.png" alt="Switchboard"></a><br><b>Switchboard</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/agentbrain-handoffs"><img src="https://raw.githubusercontent.com/willykeenan/agentbrain-handoffs/main/docs/images/handoffs-demo.png" alt="AgentBrain Handoffs"></a><br><b>AgentBrain Handoffs</b></td></tr>
+<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/tanpin"><img src="https://raw.githubusercontent.com/willykeenan/tanpin/main/docs/images/dashboard.png" alt="Tanpin"></a><br><b>Tanpin</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/agentbrain-contextlib"><img src="https://raw.githubusercontent.com/willykeenan/agentbrain-contextlib/main/docs/images/sample-library.png" alt="ContextLib"></a><br><b>ContextLib</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/live-wire"><img src="https://raw.githubusercontent.com/willykeenan/live-wire/main/docs/images/demo.png" alt="Live Wire"></a><br><b>Live Wire</b></td></tr>
+<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/strand-dna"><img src="https://raw.githubusercontent.com/willykeenan/strand-dna/main/docs/images/report.png" alt="Strand DNA"></a><br><b>Strand DNA</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/dayledger"><img src="https://raw.githubusercontent.com/willykeenan/dayledger/main/docs/images/report.png" alt="DayLedger"></a><br><b>DayLedger</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/pen"><img src="https://raw.githubusercontent.com/willykeenan/pen/main/docs/images/pen-overlay.png" alt="KE Pen"></a><br><b>KE Pen</b></td></tr>
+</table>
+
+<sub>Real screenshots of each project's demo.</sub>
+
+## Agent infrastructure
+
+Tools for running several AI coding agents (Claude Code, Codex and others) as a team, locally and in the open.
+
+| Project | What it does | Try it |
+| --- | --- | --- |
+| [Switchboard](https://github.com/willykeenan/switchboard) | A board for AI agents: rooms, a map of which agents may message which, a task board and exact-recipient handoffs. You decide who talks to whom. | Hosted version coming to [agentrooms.io](https://agentrooms.io) |
+| [AgentBrain Handoffs](https://github.com/willykeenan/agentbrain-handoffs) | Delivers work into an agent's existing session exactly once: never to a substitute, never twice, never mid-turn. CLI, live status page, MCP server. | [Live demo](https://huggingface.co/spaces/willykeenan/agentbrain-handoffs) |
+| [ContextLib](https://github.com/willykeenan/agentbrain-contextlib) | A project's long-term memory as plain Markdown you can read in Finder: decisions, facts and lessons, append-only, with a tamper-evident log. | [Sample library](https://huggingface.co/spaces/willykeenan/contextlib) |
+| [KE Activity Monitor](https://github.com/willykeenan/ke-activity-monitor) | A Mac activity monitor for people who run agents: which processes are AI runtimes, GPU compute, worker pools, projects and knowledge brains. | [Product page](https://huggingface.co/spaces/willykeenan/activity-monitor) |
+| [CPU and GPU Workers](https://github.com/willykeenan/cpu-gpu-workers) | Read-only views of local CPU job pools and the Apple GPU, inside Claude Code and Codex. | |
+| [KE Pen](https://github.com/willykeenan/pen) | Draw on your screen; your AI assistant gets exactly what you pointed at. Free, for macOS, Windows and Linux. | [Download](https://github.com/willykeenan/pen/releases) |
+| [DayLedger](https://github.com/willykeenan/dayledger) | Turns Claude Code session logs into a daily work report that follows tasks across days. | [Sample report](https://huggingface.co/spaces/willykeenan/dayledger) |
+| [Codex Lens](https://github.com/willykeenan/codex-lens) | A read-only viewer for local OpenAI Codex threads. Not affiliated with OpenAI. | |
+
+## Products and experiments
+
+| Project | What it does | Try it |
+| --- | --- | --- |
+| [KE Credits](https://github.com/willykeenan/ke-credits) | A prepaid-credits ledger for AI products in your own Postgres, with Stripe, refunds and disputes handled in any order. | |
+| [MacroMail](https://github.com/willykeenan/macromail.dev) | Free, open-source email for AI agents that you run yourself: mailboxes, a REST API and an MCP server. | |
+| [Tanpin](https://github.com/willykeenan/tanpin) | Item-by-item inventory that reorders itself: per-SKU forecasts, automatic purchase orders and delivery ETAs. | [Demo](https://huggingface.co/spaces/willykeenan/tanpin) |
+| [Live Wire](https://github.com/willykeenan/live-wire) | A 24/7 satirical AI news channel with cartoon anchors and mouth sync. Satire is always labelled. | [livewire.show](https://livewire.show) |
+| [Strand DNA](https://github.com/willykeenan/strand-dna) | A DNA report that runs entirely in your browser; your raw file never leaves the device. | [Try the sample](https://huggingface.co/spaces/willykeenan/strand-dna) |
+| [Pointer](https://github.com/willykeenan/pointer-app) | Press one key, ask out loud, and get a plain-language answer about whatever is under your cursor. | |
+
+## Research
+
+### [Waggle + Kea](https://github.com/willykeenan/waggle-kea)
+
+A protocol for compact, typed coordination between machine agents (Waggle) and a separate decoder and audit layer that never grants authority to act (Kea). Tested on the public BANKING77 benchmark with frozen gates, and I publish the negative results alongside the positive ones.
+
+<details>
+<summary>Details and results</summary>
 
 Waggle is an experimental protocol for compact, typed coordination between
 machine agents. Kea is its separate decoder and audit layer: it registers codec
@@ -42,15 +83,18 @@ repeated full-text reconstruction after branch two, but it did **not** beat the
 stronger cached-prefix or warmed fresh-native controls. I rejected the broader
 efficiency claim and published the negative result with the code.
 
+</details>
+
 ### [Financial Complaint Intelligence](https://github.com/willykeenan/financial-complaint-intelligence)
 
-An end-to-end NLP evaluation on public CFPB complaint data, covering temporal
-holdouts, deduplication, TF-IDF versus DistilBERT, confidence calibration,
-risk–coverage analysis, error analysis, and human-review routing. The locked
-experiment favored the simpler baseline—disciplined model selection over model
-hype.
+An end-to-end NLP evaluation on public CFPB complaint data: temporal holdouts, deduplication, TF-IDF versus DistilBERT, calibration, risk–coverage analysis and human-review routing. The locked experiment favored the simpler baseline.
 
-### HEATWAKE — private ML research: a Liquidity Cognition Model
+### HEATWAKE (private research)
+
+Can a model learn how market liquidity evolves from raw order-book events, the way a language model learns from text? HEATWAKE is my research system for testing that under frozen, time-ordered evaluation with strict abstention rules. No model family has cleared its preregistered gates yet, so none has been selected. It is research, not a trading system.
+
+<details>
+<summary>How it works and how I test it</summary>
 
 Everyone has heard of a **large language model (LLM)**: a system designed to
 learn structure from sequences of language. HEATWAKE asks an analogous but
@@ -134,96 +178,7 @@ failed families after seeing their results, and kept later evaluation gates
 sealed. That is the current result—not market edge, profitability, trading
 readiness, production deployment, or live operational use.
 
-## Open-source developer tools
-
-<table>
-<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/ke-activity-monitor"><img src="https://raw.githubusercontent.com/willykeenan/ke-activity-monitor/main/docs/images/agents.png" alt="KE Activity Monitor"></a><br><b>KE Activity Monitor</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/switchboard"><img src="https://raw.githubusercontent.com/willykeenan/switchboard/main/docs/images/workflow-map.png" alt="Switchboard"></a><br><b>Switchboard</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/agentbrain-handoffs"><img src="https://raw.githubusercontent.com/willykeenan/agentbrain-handoffs/main/docs/images/handoffs-demo.png" alt="AgentBrain Handoffs"></a><br><b>AgentBrain Handoffs</b></td></tr>
-<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/tanpin"><img src="https://raw.githubusercontent.com/willykeenan/tanpin/main/docs/images/dashboard.png" alt="Tanpin"></a><br><b>Tanpin</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/agentbrain-contextlib"><img src="https://raw.githubusercontent.com/willykeenan/agentbrain-contextlib/main/docs/images/sample-library.png" alt="ContextLib"></a><br><b>ContextLib</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/live-wire"><img src="https://raw.githubusercontent.com/willykeenan/live-wire/main/docs/images/demo.png" alt="Live Wire"></a><br><b>Live Wire</b></td></tr>
-<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/strand-dna"><img src="https://raw.githubusercontent.com/willykeenan/strand-dna/main/docs/images/report.png" alt="Strand DNA"></a><br><b>Strand DNA</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/dayledger"><img src="https://raw.githubusercontent.com/willykeenan/dayledger/main/docs/images/report.png" alt="DayLedger"></a><br><b>DayLedger</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/pen"><img src="https://raw.githubusercontent.com/willykeenan/pen/main/docs/images/pen-overlay.png" alt="KE Pen"></a><br><b>KE Pen</b></td></tr>
-</table>
-
-<sub>Real screenshots of each project's demo.</sub>
-
-### [KE Activity Monitor](https://github.com/willykeenan/ke-activity-monitor)
-
-A Mac activity monitor for people who run AI agents. It has the usual CPU, memory,
-energy, disk and network views, plus which processes are AI runtimes, GPU compute,
-worker pools with real progress, Codex and Claude Code projects, and local knowledge
-brains. Local only, with 615 tests.
-[Product page](https://huggingface.co/spaces/willykeenan/activity-monitor).
-
-### [AgentBrain Handoffs](https://github.com/willykeenan/agentbrain-handoffs)
-
-Durable delivery of work between AI coding agents (Claude Code, Codex, or any
-command). Each handoff becomes exactly one new turn in the recipient's existing
-session: it is never delivered to a substitute agent, never sent twice, and never
-interrupts an agent that is mid-turn. Failed deliveries are resent within a fixed
-bound; unknown outcomes are reconciled by observation rather than retried. It ships
-with a CLI, a live status page, and an MCP server; Python standard library only.
-
-### [ContextLib](https://github.com/willykeenan/agentbrain-contextlib)
-
-A project's long-term memory as plain Markdown files: decisions, requirements, facts,
-lessons and returns that you can read in Finder, carry on an SSD, and diff in git.
-Records are append-only with a tamper-evident ledger, secrets and home paths are
-refused, and an always-loaded brief stays under 8 KB. It ships a CLI and an MCP
-server, and plugs into AgentBrain Handoffs; Python standard library only.
-[Live sample library](https://huggingface.co/spaces/willykeenan/contextlib).
-
-### [Tanpin](https://github.com/willykeenan/tanpin)
-
-Item-by-item inventory that reorders itself, after the *tanpin kanri* method:
-per-SKU demand forecasts with rolling-origin backtests, automatic purchase orders,
-supplier email, delivery ETAs, and signed Stripe, Shopify, and Square sales
-sources. REST API, MCP server, and dashboard; zero runtime dependencies; tested
-across time zones.
-
-### [Switchboard](https://github.com/willykeenan/switchboard)
-
-A switchboard for AI coding agents: rooms, a directed-permission map of which agents
-may message which, placements, exact-recipient handoffs, and a task board. The operator
-decides who may talk to whom; agents never launch or wake each other without that
-permission. The source is available under a fair-source license, free to run yourself,
-and a hosted version is being built at [agentrooms.io](https://agentrooms.io).
-
-### [KE Credits](https://github.com/willykeenan/ke-credits)
-
-A prepaid-credits ledger for AI products that runs in your own Postgres. Spends
-happen inside the same transaction as the work, so a balance cannot go negative
-under concurrency. It is append-only and idempotent, and it ships a Stripe Checkout
-and webhook adapter that defaults to test mode. Refunds and disputes are safe in any
-delivery order. Zero runtime dependencies; experimental 0.x.
-
-### [KE Pen](https://github.com/willykeenan/pen)
-
-A free visual pointing layer for MCP-capable AI assistants on macOS, Windows, and
-Linux: draw on the screen, and the assistant receives exactly what you pointed at.
-
-### Smaller tools
-
-- [codex-lens](https://github.com/willykeenan/codex-lens): read-only viewer for local
-  OpenAI Codex threads, plus a Claude skill (independent; not affiliated with OpenAI).
-- [DayLedger](https://github.com/willykeenan/dayledger): turns Claude Code session logs
-  into a daily work report that tracks tasks across days.
-- [CPU and GPU Workers](https://github.com/willykeenan/cpu-gpu-workers): read-only views
-  of local CPU jobs and the Apple GPU that open inside Claude Code and Codex.
-
-## Other open projects
-
-- [Strand DNA](https://github.com/willykeenan/strand-dna): a DNA report that runs
-  entirely in the browser; the raw 23andMe or AncestryDNA file never leaves the device.
-  Openly licensed sources only, with plain-language limits on what the results mean.
-- [Live Wire](https://github.com/willykeenan/live-wire): a 24/7 satirical AI news
-  channel with cartoon anchors and mouth sync. It ships a keyless demo, invented names,
-  and a content policy that requires satire to be labelled.
-
-## Applied system
-
-### [Pointer](https://github.com/willykeenan/pointer-app)
-
-A Mac desktop-assistance prototype combining screen context and voice input to
-provide low-friction, plain-language guidance. It reflects the same design
-priority as my ML work: make complex systems legible and preserve human review.
+</details>
 
 ## How I work
 
