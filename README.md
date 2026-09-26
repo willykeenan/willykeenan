@@ -180,11 +180,11 @@ across time zones.
 
 ### [Switchboard](https://github.com/willykeenan/switchboard)
 
-A local switchboard for AI coding agents: rooms, a directed-permission map of which
-agents may message which, placements, exact-recipient handoffs, and a task board.
-The operator decides who may talk to whom; agents never launch or wake each other
-without that permission. AgentBrain Handoffs is its delivery layer, released on
-its own.
+A switchboard for AI coding agents: rooms, a directed-permission map of which agents
+may message which, placements, exact-recipient handoffs, and a task board. The operator
+decides who may talk to whom; agents never launch or wake each other without that
+permission. The source is available under a fair-source license, free to run yourself,
+and a hosted version is being built at [agentrooms.io](https://agentrooms.io).
 
 ### [KE Credits](https://github.com/willykeenan/ke-credits)
 
