@@ -161,6 +161,14 @@ The operator decides who may talk to whom; agents never launch or wake each othe
 without that permission. AgentBrain Handoffs is its delivery layer, released on
 its own.
 
+### [KE Credits](https://github.com/willykeenan/ke-credits)
+
+A prepaid-credits ledger for AI products that runs in your own Postgres. Spends
+happen inside the same transaction as the work, so a balance cannot go negative
+under concurrency. It is append-only and idempotent, and it ships a Stripe Checkout
+and webhook adapter that defaults to test mode. Refunds and disputes are safe in any
+delivery order. Zero runtime dependencies; experimental 0.x.
+
 ### [KE Pen](https://github.com/willykeenan/pen)
 
 A free visual pointing layer for MCP-capable AI assistants on macOS, Windows, and
