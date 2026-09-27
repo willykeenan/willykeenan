@@ -37,6 +37,7 @@ Lately I've been building tools for working with AI coding agents: keeping track
 | [Tanpin](https://github.com/willykeenan/tanpin) | Forecast inventory needs, create purchase orders, and track expected deliveries. | [Demo](https://huggingface.co/spaces/willykeenan/tanpin) |
 | [Live Wire](https://github.com/willykeenan/live-wire) | An AI-generated satirical news channel with animated anchors. | [Watch](https://livewire.show) |
 | [Strand DNA](https://github.com/willykeenan/strand-dna) | Explore a DNA report in your browser. Your raw file stays on your device. | [Sample](https://huggingface.co/spaces/willykeenan/strand-dna) |
+| [NY Real Estate Prep](https://github.com/willykeenan/ny-real-estate-prep) | Study for the New York real estate salesperson exam: notes for the full syllabus, 523 practice questions, flashcards, a timed mock exam, and math drills. Free and works offline. | [Use it](https://willykeenan.github.io/ny-real-estate-prep/) |
 | [Pointer](https://github.com/willykeenan/pointer-app) | Point at something on your screen, press a key, and ask a question out loud. | |
 
 ## Research
