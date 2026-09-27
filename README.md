@@ -20,6 +20,7 @@ Lately I've been building tools for working with AI coding agents: keeping track
 | --- | --- | --- |
 | [Switchboard](https://github.com/willykeenan/switchboard) | Organize agents, assign work, and choose which agents can talk to each other. | Hosted version planned for [Agent Rooms](https://agentrooms.io) |
 | [AgentBrain Handoffs](https://github.com/willykeenan/agentbrain-handoffs) | Send work to the right agent session and track its progress without interrupting an active turn. | [Demo](https://huggingface.co/spaces/willykeenan/agentbrain-handoffs) |
+| [PowerSwarm](https://github.com/willykeenan/powerswarm) | Split a coding job across several AI agents working at once, each on its own branch, and keep only the work that passes its test. | [Recorded run](https://huggingface.co/spaces/willykeenan/powerswarm) |
 | [ContextLib](https://github.com/willykeenan/agentbrain-contextlib) | Keep project notes, decisions, and lessons in Markdown, with a log that makes changes traceable. | [Sample library](https://huggingface.co/spaces/willykeenan/contextlib) |
 | [KE Activity Monitor](https://github.com/willykeenan/ke-activity-monitor) | See what your agents and their processes are doing on your Mac. | [Product page](https://huggingface.co/spaces/willykeenan/activity-monitor) |
 | [CPU and GPU Workers](https://github.com/willykeenan/cpu-gpu-workers) | Check local worker jobs and Apple GPU activity from your coding assistant. | |
