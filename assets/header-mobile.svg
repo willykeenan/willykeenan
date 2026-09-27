@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="490" viewBox="0 0 760 490" role="img" aria-labelledby="title desc">
+<title id="title">William Keenan — KE Studios</title><desc id="desc">Thoughtful tools. Ambitious ideas. Built to be used. Independent software from New York.</desc>
+<rect width="760" height="490" rx="22" fill="#101918"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="44" y="70" fill="#a6dfc6" font-size="25" font-weight="650" letter-spacing="4">KE STUDIOS</text>
+<path d="M628 50h75m-22-20 22 20-22 20" fill="none" stroke="#a6dfc6" stroke-width="4"/>
+<text x="44" y="160" fill="#f2f5ed" font-size="65" font-weight="650" letter-spacing="-2">Thoughtful tools.</text>
+<text x="44" y="240" fill="#f2f5ed" font-size="65" font-weight="650" letter-spacing="-2">Ambitious ideas.</text>
+<text x="44" y="320" fill="#a6dfc6" font-size="65" font-weight="650" letter-spacing="-2">Built to be used.</text>
+<path d="M44 363h672" stroke="#32423a"/>
+<text x="44" y="416" fill="#d1d9d0" font-size="27" font-weight="500">William Keenan</text>
+<text x="44" y="455" fill="#91ad9f" font-size="23">Independent software · New York</text>
+</g></svg>

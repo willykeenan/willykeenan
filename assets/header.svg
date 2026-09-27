@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540" role="img" aria-labelledby="title desc">
+<title id="title">William Keenan — KE Studios</title>
+<desc id="desc">Thoughtful tools. Ambitious ideas. Built to be used. Independent software from New York.</desc>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#b3dccd" stroke-opacity=".045"/></pattern>
+<linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19372f"/><stop offset="1" stop-color="#0d1514"/></linearGradient>
+</defs>
+<rect width="1600" height="540" rx="24" fill="#101918"/>
+<rect width="1600" height="540" rx="24" fill="url(#grid)"/>
+<path d="M1070 80h350v350h-350z" fill="url(#glow)" stroke="#29433b"/>
+<g fill="none" stroke="#a6dfc6" stroke-width="2">
+<path d="M1130 135h230v230h-230z" opacity=".25"/><path d="M1130 365l230-230M1130 135l230 230" opacity=".25"/>
+<path d="M1100 285h115v-100h110" stroke-width="7"/><path d="m1295 155 30 30-30 30" stroke-width="7"/>
+<circle cx="1100" cy="285" r="11" fill="#a6dfc6"/><circle cx="1215" cy="285" r="11" fill="#a6dfc6"/>
+</g>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="76" y="88" fill="#a6dfc6" font-size="24" font-weight="650" letter-spacing="5">KE STUDIOS</text>
+<text x="76" y="185" fill="#f2f5ed" font-size="71" font-weight="650" letter-spacing="-3">Thoughtful tools.</text>
+<text x="76" y="270" fill="#f2f5ed" font-size="71" font-weight="650" letter-spacing="-3">Ambitious ideas.</text>
+<text x="76" y="355" fill="#a6dfc6" font-size="71" font-weight="650" letter-spacing="-3">Built to be used.</text>
+<path d="M76 408H980" stroke="#32423a"/>
+<text x="76" y="463" fill="#d1d9d0" font-size="26" font-weight="500">William Keenan</text>
+<text x="325" y="463" fill="#879d93" font-size="23">Independent software · New York</text>
+<text x="1110" y="476" fill="#91ad9f" font-size="18" letter-spacing="3">IDEA → INTERFACE</text>
+</g>
+</svg>

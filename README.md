@@ -1,79 +1,92 @@
-# William Keenan
+<a href="https://kestudios.dev"><picture><source media="(max-width: 600px)" srcset="assets/header-mobile.svg"><img src="assets/header.svg" width="100%" alt="William Keenan — KE Studios. Thoughtful tools. Ambitious ideas. Built to be used."></picture></a>
 
-I'm a developer in New York. I work in banking and build my own projects through KE Studios.
+I'm **William**, a developer in New York. I work in banking and build independent software through **KE Studios**. I care about the details that make a tool useful: seeing what an agent is doing, pointing at exactly what you mean, and picking up where you left off.
 
-Lately I've been building tools for working with AI coding agents: keeping track of their work, sharing context, and getting them to work together. You'll also find a few apps and research projects below.
+**[Explore KE Studios ↗](https://kestudios.dev)** &nbsp; · &nbsp; [Agent Rooms](https://agentrooms.io) &nbsp; · &nbsp; [Hugging Face](https://huggingface.co/willykeenan) &nbsp; · &nbsp; [Get in touch](mailto:william@kestudios.dev)
 
-<sub>These are personal projects. My views are my own, not my employer's.</sub>
+## Selected work
 
-[KE Studios](https://kestudios.dev) · [Agent Rooms](https://agentrooms.io) · [Hugging Face](https://huggingface.co/willykeenan) · [william@kestudios.dev](mailto:william@kestudios.dev)
+### KE Pen · Show what you mean
 
-<table>
-<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/ke-activity-monitor"><img src="https://raw.githubusercontent.com/willykeenan/ke-activity-monitor/main/docs/images/agents.png" alt="KE Activity Monitor"></a><br><b>KE Activity Monitor</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/switchboard"><img src="https://raw.githubusercontent.com/willykeenan/switchboard/main/docs/images/workflow-map.png" alt="Switchboard"></a><br><b>Switchboard</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/agentbrain-handoffs"><img src="https://raw.githubusercontent.com/willykeenan/agentbrain-handoffs/main/docs/images/handoffs-demo.png" alt="AgentBrain Handoffs"></a><br><b>AgentBrain Handoffs</b></td></tr>
-<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/tanpin"><img src="https://raw.githubusercontent.com/willykeenan/tanpin/main/docs/images/dashboard.png" alt="Tanpin"></a><br><b>Tanpin</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/agentbrain-contextlib"><img src="https://raw.githubusercontent.com/willykeenan/agentbrain-contextlib/main/docs/images/sample-library.png" alt="ContextLib"></a><br><b>ContextLib</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/live-wire"><img src="https://raw.githubusercontent.com/willykeenan/live-wire/main/docs/images/demo.png" alt="Live Wire"></a><br><b>Live Wire</b></td></tr>
-<tr><td width="33%" align="center"><a href="https://github.com/willykeenan/strand-dna"><img src="https://raw.githubusercontent.com/willykeenan/strand-dna/main/docs/images/report.png" alt="Strand DNA"></a><br><b>Strand DNA</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/dayledger"><img src="https://raw.githubusercontent.com/willykeenan/dayledger/main/docs/images/report.png" alt="DayLedger"></a><br><b>DayLedger</b></td><td width="33%" align="center"><a href="https://github.com/willykeenan/pen"><img src="https://raw.githubusercontent.com/willykeenan/pen/main/docs/images/pen-overlay.png" alt="KE Pen"></a><br><b>KE Pen</b></td></tr>
-</table>
+Circle a detail on your screen and give your AI assistant the visual context. A small tool for the moments when pointing is easier than explaining.
 
-## Tools for AI agents
+<a href="https://github.com/willykeenan/pen"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/pen-point.png"><img src="assets/pen-point.gif" width="100%" alt="KE Pen's actual drawing interface circling an export menu on a fictional sample workspace."></picture></a>
 
-| Project | What it does | Links |
-| --- | --- | --- |
-| [Switchboard](https://github.com/willykeenan/switchboard) | Organize agents, assign work, and choose which agents can talk to each other. | Hosted version planned for [Agent Rooms](https://agentrooms.io) |
-| [AgentBrain Handoffs](https://github.com/willykeenan/agentbrain-handoffs) | Send work to the right agent session and track its progress without interrupting an active turn. | [Demo](https://huggingface.co/spaces/willykeenan/agentbrain-handoffs) |
-| [PowerSwarm](https://github.com/willykeenan/powerswarm) | Split a coding job across several AI agents working at once, each on its own branch, and keep only the work that passes its test. | [Recorded run](https://huggingface.co/spaces/willykeenan/powerswarm) |
-| [ContextLib](https://github.com/willykeenan/agentbrain-contextlib) | Keep project notes, decisions, and lessons in Markdown, with a log that makes changes traceable. | [Sample library](https://huggingface.co/spaces/willykeenan/contextlib) |
-| [KE Activity Monitor](https://github.com/willykeenan/ke-activity-monitor) | See what your agents and their processes are doing on your Mac. | [Product page](https://huggingface.co/spaces/willykeenan/activity-monitor) |
-| [CPU and GPU Workers](https://github.com/willykeenan/cpu-gpu-workers) | Check local worker jobs and Apple GPU activity from your coding assistant. | |
-| [KE Pen](https://github.com/willykeenan/pen) | Draw on your screen to show an AI assistant what you mean. Free on Mac, Windows, and Linux. | [Download](https://github.com/willykeenan/pen/releases) |
-| [DayLedger](https://github.com/willykeenan/dayledger) | Turn Claude Code session logs into a daily report, including work that spans several days. | [Sample report](https://huggingface.co/spaces/willykeenan/dayledger) |
-| [Codex Lens](https://github.com/willykeenan/codex-lens) | Browse local Codex conversations. An independent project, not affiliated with OpenAI. | |
+**[Download for Mac, Windows & Linux ↗](https://github.com/willykeenan/pen/releases/latest)** &nbsp; · &nbsp; [Source](https://github.com/willykeenan/pen)
 
-## Other projects
+<sub>Actual KE Pen drawing interface over a fictional sample page. The assistant connection is simulated for this preview.</sub>
 
-| Project | What it does | Links |
-| --- | --- | --- |
-| [MacroMail](https://github.com/willykeenan/macromail.dev) | Email for AI agents, with an API and MCP server. Free, open source, and self-hosted. | |
-| [KE Credits](https://github.com/willykeenan/ke-credits) | Manage prepaid credits, Stripe payments, refunds, and disputes in your own Postgres database. | |
-| [Tanpin](https://github.com/willykeenan/tanpin) | Forecast inventory needs, create purchase orders, and track expected deliveries. | [Demo](https://huggingface.co/spaces/willykeenan/tanpin) |
-| [Live Wire](https://github.com/willykeenan/live-wire) | An AI-generated satirical news channel with animated anchors. | [Watch](https://livewire.show) |
-| [Strand DNA](https://github.com/willykeenan/strand-dna) | Explore a DNA report in your browser. Your raw file stays on your device. | [Sample](https://huggingface.co/spaces/willykeenan/strand-dna) |
-| [NY Real Estate Prep](https://github.com/willykeenan/ny-real-estate-prep) | Study for the New York real estate salesperson exam: notes for the full syllabus, 523 practice questions, flashcards, a timed mock exam, and math drills. Free and works offline. | [Use it](https://willykeenan.github.io/ny-real-estate-prep/) |
-| [Pointer](https://github.com/willykeenan/pointer-app) | Point at something on your screen, press a key, and ask a question out loud. | |
+### Switchboard · A place for every agent
+
+See who is working, who needs you, and what just finished. Organize your agents, keep their work visible, and choose which sessions may talk to each other.
+
+<a href="https://github.com/willykeenan/switchboard"><img src="assets/switchboard-live.png" width="100%" alt="Switchboard Live showing sample project teams, agent status, recent messages, and a needs-you queue."></a>
+
+**[Run it locally ↗](https://github.com/willykeenan/switchboard#60-second-quickstart)** &nbsp; · &nbsp; [Source](https://github.com/willykeenan/switchboard) &nbsp; · &nbsp; [Agent Rooms](https://agentrooms.io)
+
+<sub>Fresh capture of the public Live interface, using invented agents and isolated sample sessions.</sub>
+
+### KE Activity Monitor · Know what your Mac is doing
+
+CPU, memory, disk, network—and the agents behind the processes. See local worker progress, GPU activity, and project conversations in one place.
+
+<a href="https://github.com/willykeenan/ke-activity-monitor"><img src="assets/activity-monitor.png" width="100%" alt="KE Activity Monitor's Agents tab with per-core CPU, GPU compute, memory pressure, AI processes, and worker progress."></a>
+
+**[Explore the app ↗](https://huggingface.co/spaces/willykeenan/activity-monitor)** &nbsp; · &nbsp; [Source & setup](https://github.com/willykeenan/ke-activity-monitor)
+
+<sub>Current public app interface rendered with its published, sanitized screenshot fixture. This is sample telemetry, not a live feed.</sub>
+
+### AgentBrain Handoffs · Keep the work moving
+
+Send work to one exact agent session, wait when it's busy, and track the result. A local delivery layer with a CLI, MCP server, and an inspectable status page.
+
+<a href="https://github.com/willykeenan/agentbrain-handoffs"><img src="assets/handoffs.png" width="100%" alt="AgentBrain Handoffs running its simulated-agent demo, with in-flight work, delivery status, and returned tasks."></a>
+
+**[Try the demo ↗](https://huggingface.co/spaces/willykeenan/agentbrain-handoffs)** &nbsp; · &nbsp; [Source & quickstart](https://github.com/willykeenan/agentbrain-handoffs)
+
+<sub>Fresh capture of the real demo. Its agents, work, and delivery measurements are simulated.</sub>
+
+### Tanpin · The small details of running a store
+
+Item-by-item inventory with demand forecasts, purchase orders, and delivery estimates. Built for people and agents, with a dashboard, REST API, and MCP server.
+
+<a href="https://github.com/willykeenan/tanpin"><img src="assets/tanpin.png" width="100%" alt="Tanpin's inventory interface running its built-in sample convenience store."></a>
+
+**[Source & quickstart ↗](https://github.com/willykeenan/tanpin)** &nbsp; · &nbsp; [API guide](https://github.com/willykeenan/tanpin/blob/main/docs/API.md)
+
+<sub>Current public source, running locally with its built-in sample store. No real orders or supplier messages.</sub>
+
+## More from the studio
+
+| Project | Built for |
+| --- | --- |
+| [ContextLib](https://github.com/willykeenan/agentbrain-contextlib) | Project notes, decisions, and lessons in traceable Markdown. |
+| [PowerSwarm](https://github.com/willykeenan/powerswarm) | Parallel coding work in isolated branches, with tests before integration. |
+| [CPU & GPU Workers](https://github.com/willykeenan/cpu-gpu-workers) | Local worker progress and Apple GPU activity from your coding assistant. |
+| [MacroMail](https://github.com/willykeenan/macromail.dev) | Self-hosted email for agents, with an API and MCP server. |
+| [Codex Lens](https://github.com/willykeenan/codex-lens) | Browsing local Codex conversations. Independent; not affiliated with OpenAI. |
+| [DayLedger](https://github.com/willykeenan/dayledger) | Daily work reports from coding-session logs. |
+| [KE Credits](https://github.com/willykeenan/ke-credits) | Prepaid credits, payments, refunds, and disputes in your own Postgres database. |
+| [Live Wire](https://github.com/willykeenan/live-wire) | A satirical news channel with animated AI anchors. |
+| [Strand DNA](https://github.com/willykeenan/strand-dna) | Exploring a DNA report locally in your browser. |
+| [NY Real Estate Prep](https://github.com/willykeenan/ny-real-estate-prep) | Offline exam study, practice questions, flashcards, and math drills. |
+| [Pointer](https://github.com/willykeenan/pointer-app) | Point at your screen and ask a question out loud. |
 
 ## Research
 
-### [Waggle + Kea](https://github.com/willykeenan/waggle-kea)
+I publish experiments with reproduction steps and keep the negative results in.
 
-I'm testing ways for agents to exchange structured messages and check what happened to them. Waggle handles the message format; Kea decodes and checks it. Neither gives an agent permission to act.
+**[Waggle + Kea](https://github.com/willykeenan/waggle-kea)** — structured agent messages and independent checking, with a reproducible BANKING77 benchmark. Neither grants permission to act.
 
-The repo includes a BANKING77 text-classification benchmark, reproduction instructions, and the results, including experiments that didn't work.
+**[Financial Complaint Intelligence](https://github.com/willykeenan/financial-complaint-intelligence)** — text classification on public CFPB complaints, with chronological evaluation, duplicate controls, and confidence analysis. The simpler baseline won the fixed experiment.
 
 <details>
-<summary>A few results</summary>
+<summary>Private research: HEATWAKE</summary>
 
-Adding character features to the word-based baseline improved macro-F1 from **0.8915 to 0.9119**. The paired improvement was **0.0203**, with a 95% bootstrap interval of **[0.0140, 0.0274]**. All 3,050 held-out predictions kept the same routing decisions across direct, JSON, and Waggle/Kea handoffs. Those are results from this benchmark, not a general claim about agent performance.
-
-I also tested reusing a Qwen3-14B prefix state across six branches on Apple Metal. It beat rebuilding the full text after the second branch, but didn't beat the stronger cached-prefix or warmed-native baselines. I published that result too.
+I'm investigating patterns in market liquidity using order-book events and visual representations. The models tested so far have not passed my evaluation criteria. I have not established a trading edge. HEATWAKE remains private.
 
 </details>
 
-### [Financial Complaint Intelligence](https://github.com/willykeenan/financial-complaint-intelligence)
+---
 
-A comparison of TF-IDF and DistilBERT on public CFPB complaint data, tested on later data with duplicates removed. It also looks at confidence estimates and when a case should go to a person. The simpler baseline won the fixed experiment.
-
-### HEATWAKE
-
-My private research into how market liquidity changes over time. I'm testing whether models can learn useful patterns from order-book events and how those patterns change across time scales.
-
-The models tested so far haven't passed the evaluation criteria I set in advance. I haven't selected a model or established a trading edge.
-
-<details>
-<summary>What I'm testing</summary>
-
-HEATWAKE keeps the original order-book events alongside a time-and-price representation built from them. The models use only information available at each prediction time. I'm comparing event-based, visual, and combined approaches.
-
-I call the experimental model family a Liquidity Cognition Model, or LCM. The question is whether it can distinguish what happens next: a large order holding, being withdrawn, absorbing trades, breaking, or reforming.
-
-Tests use chronological splits, strong baselines, checks for future-data leakage, and realistic costs. Forecast accuracy and uncertainty are measured separately. A model that misses any required criterion isn't selected, and a forecast never grants permission to trade.
-
-</details>
+<sub>Personal projects. My views are my own, not my employer's. Preview provenance: [how these images were made](assets/PROVENANCE.md).</sub>
