@@ -14,7 +14,7 @@ Circle a detail on your screen and give your AI assistant the visual context. A 
 
 **[Download for Mac, Windows & Linux ↗](https://github.com/willykeenan/pen/releases/latest)** &nbsp; · &nbsp; [Source](https://github.com/willykeenan/pen)
 
-<sub>Actual KE Pen drawing interface over a fictional sample page. The assistant connection is simulated for this preview.</sub>
+<sub>Actual KE Pen drawing interface over a fictional sample page. Its desktop bridge is a test fixture; no AI response is shown.</sub>
 
 ### Switchboard · A place for every agent
 
