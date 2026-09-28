@@ -70,7 +70,7 @@ Item-by-item inventory with demand forecasts, purchase orders, and delivery esti
 | [Live Wire](https://github.com/willykeenan/live-wire) | A satirical news channel with animated AI anchors. |
 | [Strand DNA](https://github.com/willykeenan/strand-dna) | Exploring a DNA report locally in your browser. |
 | [Landmark Prep](https://github.com/willykeenan/landmark-prep) | Real estate license exam prep for every state, with state facts quoted from official sources. |
-| [KE Volume Mixer](https://github.com/willykeenan/volume-mixer) | Per-app volume, mute, and live meters from the macOS menu bar. |
+| [KE Volume Mixer](https://github.com/willykeenan/volume-mixer) | A Windows-level volume mixer for Mac. |
 | [Pointer](https://github.com/willykeenan/pointer-app) | Point at your screen and ask a question out loud. |
 
 ## Research
