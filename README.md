@@ -69,7 +69,7 @@ Item-by-item inventory with demand forecasts, purchase orders, and delivery esti
 | [KE Credits](https://github.com/willykeenan/ke-credits) | Prepaid credits, payments, refunds, and disputes in your own Postgres database. |
 | [Live Wire](https://github.com/willykeenan/live-wire) | A satirical news channel with animated AI anchors. |
 | [Strand DNA](https://github.com/willykeenan/strand-dna) | Exploring a DNA report locally in your browser. |
-| [NY Real Estate Prep](https://github.com/willykeenan/ny-real-estate-prep) | Offline exam study, practice questions, flashcards, and math drills. |
+| [Landmark Prep](https://github.com/willykeenan/landmark-prep) | Real estate license exam prep for every state, with state facts quoted from official sources. |
 | [Pointer](https://github.com/willykeenan/pointer-app) | Point at your screen and ask a question out loud. |
 
 ## Research
